@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "allowJs": false,
+    "lib": [ "deno.window" ],
+    "strict": true
+  },
+  "lint": {
+    "include": [ "source/" ],
+    "rules": {
+      "tags": ["recommened"]
+    }
+  },
+  "fmt": {},
+  "nodeModulesDir": true,
+  "test": {
+    "include": ["source/"],
+    "exclude": ["source/test"]
+  },
+  "tasks": {
+    "dev": "deno run --watch main.ts"
+  },
+  "imports": {}
+}
